@@ -13,25 +13,24 @@ Inicialmente, os dados passaram por etapas de limpeza e organização, além da 
 Para garantir que as respostas dos dois modelos fossem comparadas corretamente, foi criado um identificador único (id_respondente). Esse identificador foi utilizado apenas para manter o controle dos registros ao longo do processo.
 Foi definido um conjunto de teste com pelo menos 200 respondentes. A partir desse mesmo conjunto, foram geradas, de forma individual, as respostas do LLM no ChatGPT, considerando o perfil de cada respondente separadamente. Em seguida, essas respostas foram incorporadas ao conjunto de teste utilizando o identificador criado, permitindo a comparação direta entre os dois modelos para os mesmos indivíduos. O prompt utilizado e os prints das respostas geradas nesse processo estão disponíveis no apêndice.
 Para tornar os resultados mais estáveis e evitar que dependessem de uma única divisão dos dados, foi utilizada validação cruzada com 5 divisões (folds).
-
 3.1 Modelos Testados
 Antes da definição do modelo supervisionado, foram avaliados diferentes algoritmos de classificação com o objetivo de identificar a abordagem mais adequada para o problema.
 Foram testados os seguintes modelos: Random Forest, K-Nearest Neighbors (KNN), Gradient Boosting Machines (GBM) e Rede Neural (MLPClassifier).
 Os resultados indicaram que o Random Forest apresentou o melhor desempenho, com acurácia aproximada de 43,5%, seguido pelo GBM (42,0%), Rede Neural (38,5%) e KNN (33,5%).
 Com base nesses resultados, o Random Forest foi selecionado como modelo supervisionado principal.
 
-4.	Modelos Utilizados
+5.	Modelos Utilizados
 Com base nos testes realizados,o modelo supervisionado escolhido foi o Random Forest.  Ele foi escolhido por ser um modelo robusto, capaz de lidar com diferentes tipos de variáveis e capturar padrões complexos nos dados (SILVA et al., 2023). 
 Já o modelo baseado em LLM foi utilizado com o objetivo de simular respostas a partir do perfil dos respondentes. A ideia foi reproduzir, de forma aproximada, como uma pessoa com aquelas características poderia responder à pergunta, permitindo comparar esse comportamento com o modelo supervisionado.
 
-5. Métricas de Avaliação
+6. Métricas de Avaliação
 Para a comparação entre os modelos, foram utilizadas diferentes métricas, buscando analisar não apenas o desempenho geral, mas também o comportamento das previsões.
 A acurácia foi adotada como medida principal, por indicar de forma direta a proporção de acertos do modelo. Também, foi analisado o relatório de classificação, que inclui métricas como precisão, recall e F1-score, permitindo uma avaliação mais detalhada para cada classe.
 A matriz de confusão também foi utilizada com o objetivo de identificar os principais tipos de erro e entender como os modelos distribuem suas previsões entre as categorias.
 No caso do modelo supervisionado, foi analisada a importância das variáveis, buscando identificar quais características dos respondentes tiveram maior influência nos resultados.
 Por fim, a distância de Jensen-Shannon foi utilizada por permitir medir a diferença entre distribuições de probabilidade, sendo útil para comparar padrões de resposta entre os modelos (IA TRACKER, 2024).
 
-6. Análise dos resultados
+7. Análise dos resultados
 Os dois modelos foram avaliados usando o mesmo conjunto de teste, garantindo uma comparação justa.
 De forma geral, o modelo supervisionado apresentou melhor desempenho em termos de acurácia, indicando maior capacidade de reproduzir os padrões observados nos dados.
 Já o modelo LLM apresentou maior variação nas respostas, o que impactou a distribuição final. Isso mostra que ele simula respostas de forma diferente do modelo supervisionado, não seguindo exatamente os mesmos padrões observados na base.
