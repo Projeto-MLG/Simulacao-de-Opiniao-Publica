@@ -13,7 +13,7 @@ Inicialmente, os dados passaram por etapas de limpeza e organização, além da 
 Para garantir que as respostas dos dois modelos fossem comparadas corretamente, foi criado um identificador único (id_respondente). Esse identificador foi utilizado apenas para manter o controle dos registros ao longo do processo.
 Foi definido um conjunto de teste com pelo menos 200 respondentes. A partir desse mesmo conjunto, foram geradas, de forma individual, as respostas do LLM no ChatGPT, considerando o perfil de cada respondente separadamente. Em seguida, essas respostas foram incorporadas ao conjunto de teste utilizando o identificador criado, permitindo a comparação direta entre os dois modelos para os mesmos indivíduos. O prompt utilizado e os prints das respostas geradas nesse processo estão disponíveis no apêndice.
 Para tornar os resultados mais estáveis e evitar que dependessem de uma única divisão dos dados, foi utilizada validação cruzada com 5 divisões (folds).
-### 3.1 Modelos Testados
+### 3.1. Modelos Testados
 Antes da definição do modelo supervisionado, foram avaliados diferentes algoritmos de classificação com o objetivo de identificar a abordagem mais adequada para o problema.
 Foram testados os seguintes modelos: Random Forest, K-Nearest Neighbors (KNN), Gradient Boosting Machines (GBM) e Rede Neural (MLPClassifier).
 Os resultados indicaram que o Random Forest apresentou o melhor desempenho, com acurácia aproximada de 43,5%, seguido pelo GBM (42,0%), Rede Neural (38,5%) e KNN (33,5%).
@@ -37,7 +37,7 @@ Já o modelo LLM apresentou maior variação nas respostas, o que impactou a dis
 A análise da importância das variáveis ajudou a entender quais características dos respondentes tiveram maior influência nas previsões do modelo supervisionado, contribuindo para uma melhor interpretação dos resultados.
 Além disso, a distância de Jensen-Shannon permitiu quantificar a diferença entre as distribuições de respostas dos dois modelos, ajudando a avaliar o nível de aproximação entre eles.
 
-### 6.1 Comparação entre os modelos
+### 6.1. Comparação entre os modelos
 Além da análise textual, foi elaborada uma tabela comparativa com as principais métricas de desempenho dos modelos, facilitando a visualização das diferenças entre as abordagens.
 Os resultados mostram que o modelo supervisionado apresentou melhor desempenho geral, com acurácia de 43,5%, enquanto o LLM obteve acurácia de 28,5%. Esse comportamento também se repete nas demais métricas, como precision, recall e F1-score.
 Essa diferença indica que o modelo supervisionado consegue reproduzir com maior precisão os padrões presentes nos dados. Por outro lado, o LLM apresenta maior variação nas respostas, o que impacta diretamente seu desempenho e a distribuição final. 
