@@ -1,4 +1,5 @@
 # Simulação de Opinião Pública com Modelo Supervisionado e LLM
+### 04839 - PERCEPÇÃO DOS BRASILEIROS SOBRE TEMAS RELACIONADOS À DESIGUALDADE
 
 ## 1.	Objetivo
 O objetivo deste projeto foi simular respostas de uma pesquisa de opinião pública utilizando duas abordagens: LLM e um modelo de aprendizado supervisionado. A ideia principal é comparar os resultados obtidos por cada método.
