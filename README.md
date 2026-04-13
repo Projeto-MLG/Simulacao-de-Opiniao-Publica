@@ -8,10 +8,10 @@ Com base em uma pesquisa de opinião do Cesop (Centro de Estudos de Opinião Pú
 
 **3. Ferramentas**: Empregue somente modelos e recursos abertos, sendo 100% executável e aberto. Preferencialmente executar 100% em um notebook Colab.
 
-**4.GitHub**: Implementar um GitHub com o projeto.
+**4. GitHub**: Implementar um GitHub com o projeto.
 
-**5.Entrega**: No formato de um artigo SBC, preferencialmente em Latex. Apresentação opcional no YouTube (máximo 5min) com o link a ser incluído no GitHub.
+**5. Entrega**: No formato de um artigo SBC, preferencialmente em Latex. Apresentação opcional no YouTube (máximo 5min) com o link a ser incluído no GitHub.
 
-**6.Rubrica**: Modelo LLM, 3p (quantidade de atributos e respostas, qualidade dos prompts e aderência das respostas); Modelo Supervisionado, 2p (separação de dados, parametrização do modelo); Análise e Comparação dos resultados, 3p (métricas empregadas, repetições e/ou bootstrapping, gráficos comparativos, técnicas de explicabilidade); Artigo e Aspecto Geral do Trabalho, 2p (Apresentação, fundamentação, referências, apresentação dos resultados).
+**6. Rubrica**: Modelo LLM, 3p (quantidade de atributos e respostas, qualidade dos prompts e aderência das respostas); Modelo Supervisionado, 2p (separação de dados, parametrização do modelo); Análise e Comparação dos resultados, 3p (métricas empregadas, repetições e/ou bootstrapping, gráficos comparativos, técnicas de explicabilidade); Artigo e Aspecto Geral do Trabalho, 2p (Apresentação, fundamentação, referências, apresentação dos resultados).
 
-**7.Vídeo**: Máximo 10min, YouTube e link no GitHub.
+**7. Vídeo**: Máximo 10min, YouTube e link no GitHub.
