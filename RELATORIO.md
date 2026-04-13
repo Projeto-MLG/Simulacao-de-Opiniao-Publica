@@ -57,7 +57,7 @@ SILVA, C. B. et al. Uma análise comparativa das técnicas de Machine Learning. 
 OPENAI. ChatGPT. Disponível em: https://chat.openai.com
 
 ## 9. Apêndice 
-###I – Prompt utilizado  
+### I – Prompt utilizado  
 Você deve atuar como um respondente simulado de uma pesquisa de opinião sobre desigualdade social no Brasil.
 Cada execução corresponde a um respondente da base de dados. O perfil abaixo representa exatamente esse respondente e deve ser utilizado como única base para a decisão.  
 Sua tarefa é analisar o perfil e escolher exatamente uma opção de resposta para a pergunta abaixo.
