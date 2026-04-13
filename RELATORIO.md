@@ -80,53 +80,6 @@ Opções de resposta:
 6 = Não sabe/ Não respondeu  
 Perfil do respondente:   
 Obs.: Aqui foi inserido o perfil a ser considerado para a simulação da resposta  
-
-De forma geral, o modelo supervisionado apresentou melhor desempenho em termos de acurácia, indicando maior capacidade de reproduzir os padrões observados nos dados.
-Já o modelo LLM apresentou maior variação nas respostas, o que impactou a distribuição final. Isso mostra que ele simula respostas de forma diferente do modelo supervisionado, não seguindo exatamente os mesmos padrões observados na base.
-A análise da importância das variáveis ajudou a entender quais características dos respondentes tiveram maior influência nas previsões do modelo supervisionado, contribuindo para uma melhor interpretação dos resultados.
-Além disso, a distância de Jensen-Shannon permitiu quantificar a diferença entre as distribuições de respostas dos dois modelos, ajudando a avaliar o nível de aproximação entre eles.
-
-###6.1 Comparação entre os modelos
-Além da análise textual, foi elaborada uma tabela comparativa com as principais métricas de desempenho dos modelos, facilitando a visualização das diferenças entre as abordagens.
-Os resultados mostram que o modelo supervisionado apresentou melhor desempenho geral, com acurácia de 43,5%, enquanto o LLM obteve acurácia de 28,5%. Esse comportamento também se repete nas demais métricas, como precision, recall e F1-score.
-Essa diferença indica que o modelo supervisionado consegue reproduzir com maior precisão os padrões presentes nos dados. Por outro lado, o LLM apresenta maior variação nas respostas, o que impacta diretamente seu desempenho e a distribuição final. 
-O Gráfico 1 apresenta a comparação da acurácia entre os modelos, evidenciando o melhor desempenho do modelo supervisionado em relação ao LLM.
-Grafico1: Comparação da acurácia entre os modelos (Supervisionado vs LLM)
- 
-Apesar do modelo supervisionado ter apresentado melhor desempenho, os valores de acurácia indicam que o problema ainda apresenta um nível considerável de dificuldade, possivelmente devido à natureza da variável alvo.
-
-##7. Conclusão
-Os resultados mostram que tanto o modelo supervisionado quanto o LLM conseguem simular respostas de uma pesquisa de opinião, mas com comportamentos diferentes.
-O modelo supervisionado teve melhor desempenho preditivo, enquanto o LLM apresentou maior variação nas respostas.
-Isso indica que as duas abordagens podem ser usadas de forma complementar, unindo a capacidade de previsão com a simulação mais flexível baseada em linguagem.
-
-##8. Referências bibliográficas
-https://iatracker.com.br/glossario/o-que-e-jensen-shannon-divergence/ 11/04/2026 às 17:59
-SILVA, C. B. et al. Uma análise comparativa das técnicas de Machine Learning. Revista Apoena, 2023.
-OPENAI. ChatGPT. Disponível em: https://chat.openai.com
-
-##9. Apêndice 
-I – Prompt utilizado
-Você deve atuar como um respondente simulado de uma pesquisa de opinião sobre desigualdade social no Brasil.
-Cada execução corresponde a um respondente da base de dados. O perfil abaixo representa exatamente esse respondente e deve ser utilizado como única base para a decisão.
-Sua tarefa é analisar o perfil e escolher exatamente uma opção de resposta para a pergunta abaixo.
-Pergunta: Na sua percepção, nos últimos 12 meses, o número de pessoas em situação de fome e pobreza na sua cidade:
-•	Aumentou → indique qual das frases abaixo melhor representa sua percepção
-•	Não aumentou
-Regras obrigatórias:
-•	Considere apenas as informações do perfil fornecido.
-•	NÃO utilize conhecimento externo ou suposições genéricas.
-•	Escolha somente UMA opção.
-•	NÃO invente respostas.
-•	NÃO explique a escolha.
-•	Retorne o número do id_ respondente e a resposta completa.
-Opções de resposta:
-1 = Tenho visto ou conheço muitas pessoas com dificuldades para comprar alimentos
-2 = Tenho visto mais pessoas trabalhando nos semáforos/ruas
-3 = Tenho visto mais favelas/barracos/áreas ocupadas
-4 = Tenho visto o aumento da população em situação de rua/ pessoas morando na rua
-5 = Não tenho percebido/ visto aumento de pessoas em situação de pobreza na cidade
-6 = Não sabe/ Não respondeu
 Perfil do respondente: 
 Obs.: Aqui foi inserido o perfil a ser considerado para a simulação da resposta
 
