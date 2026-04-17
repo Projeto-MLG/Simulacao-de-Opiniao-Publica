@@ -4,7 +4,7 @@ Este trabalho tem como objetivo simular respostas de uma pesquisa de opinião p�
 
 ## Arquivos de entrega: 
 * [Código do projeto (Google Colab)](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
-* [Relatório do projeto (Artigo SBC)](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Simulação_de_Opinião_Pública.pdf)
+* [Relatório do projeto (Artigo SBC)](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/b2656653d3929b35e59e13e836035d2b8517671d/Simulac%CC%A7a%CC%83o_de_Opinia%CC%83o_Pu%CC%81blica.pdf)
 * [Apresentação - YouTube](https://)
 
 ## Arquivos base: 
