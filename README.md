@@ -3,8 +3,8 @@
 Este trabalho tem como objetivo simular respostas de uma pesquisa de opinião pública sobre desigualdade social no Brasil, utilizando duas abordagens: modelos de linguagem (LLM) e aprendizado supervisionado. A base de dados utilizada foi proveniente do CESOP, composta por aproximadamente 2.000 respondentes com diferentes perfis sociodemográficos.
 
 ## Arquivos de entrega: 
-* [Código do projeto (Google Colab)](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
-* [Artigo Simulação de Opinião Pública](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/b121cc9f7344cec4dfde9575f10c60f9e8cd1473/Projeto_Simulac%CC%A7a%CC%83o_de_Opinia%CC%83o_Pu%CC%81blica.pdf)
+* [Código do projeto - Google Colab](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
+* [Artigo Simulação de Opinião Pública - LaTeX](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/b121cc9f7344cec4dfde9575f10c60f9e8cd1473/Projeto_Simulac%CC%A7a%CC%83o_de_Opinia%CC%83o_Pu%CC%81blica.pdf)
 * [Apresentação - YouTube](https://youtu.be/jey9ZktKqOA)
 * [Apresentação - PowerPoint](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/a97654d23ad8e50509e6ddeed712a1f21383c813/Arquivos/MLG_Projeto_Desigualdade.pdf)
 
