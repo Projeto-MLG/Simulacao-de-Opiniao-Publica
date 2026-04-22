@@ -16,7 +16,7 @@ Este trabalho tem como objetivo simular respostas de uma pesquisa de opini√£o p√
 ## Respostas geradas pela LLM: 
 
 * [Arquivo formato csv](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/LLM_Generated_Answers/Base%20teste%20LLM.csv)
-* [Arquivo com os prints das respostas do LLM](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/LLM_Generated_Answers/Print%20dos%20Respostas%20LLM.pdf)
+* [Arquivo com os prints das respostas do LLM](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/8354df270ccd2268bfacfc2f38a134d2a0fde841/LLM_Generated_Answers/Prints%20das%20respostas%20do%20LLM.pdf)
 
 
 
