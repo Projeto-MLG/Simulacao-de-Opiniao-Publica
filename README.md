@@ -6,7 +6,7 @@ Este trabalho tem como objetivo simular respostas de uma pesquisa de opinião p�
 * [Código do projeto - Google Colab](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
 * [Artigo Simulação de Opinião Pública - LaTeX](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/b121cc9f7344cec4dfde9575f10c60f9e8cd1473/Projeto_Simulac%CC%A7a%CC%83o_de_Opinia%CC%83o_Pu%CC%81blica.pdf)
 * [Apresentação em vídeo - YouTube](https://youtu.be/jey9ZktKqOA)
-* [Apresentação em PowerPoint](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/a97654d23ad8e50509e6ddeed712a1f21383c813/Arquivos/MLG_Projeto_Desigualdade.pdf)
+* [Arquivo da Apresentação - PowerPoint](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/a97654d23ad8e50509e6ddeed712a1f21383c813/Arquivos/MLG_Projeto_Desigualdade.pdf)
 
 ## Arquivos base: 
 * [Base de Dados](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Dataset/04839.sav)
