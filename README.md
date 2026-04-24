@@ -83,9 +83,20 @@ Os resultados mostraram que o modelo supervisionado apresentou melhor desempenho
 
 Apesar da superioridade do Random Forest na previsão individual, o LLM apresentou maior proximidade estrutural com a distribuição real das respostas, validada pela baixa Distância de Jensen-Shannon.
 Isso mostra que:
-* o Random Forest é mais eficiente para prever respostas individuais
-* o LLM é mais eficiente para simular tendências coletivas e comportamento social agregado
+* O Random Forest é mais eficiente para prever respostas individuais;
+* O LLM é mais eficiente para simular tendências coletivas e comportamento social agregado
 Esse resultado reforça que as duas abordagens não são concorrentes, mas complementares.
+
+**Reprodutibilidade**
+
+Todos os códigos desenvolvidos, bases estruturadas, perfis sociodemográficos e registros das respostas geradas pelo LLM estão disponíveis neste repositório.
+A organização dos arquivos foi pensada para permitir a reprodutibilidade completa dos experimentos, incluindo:
+* dados de entrada
+* prompts utilizados
+* resultados intermediários
+* métricas finais
+* gráficos comparativos
+Isso garante transparência metodológica e facilita futuras extensões da pesquisa.
 
 ## Grupo
 1. Ana Beatriz Rocha Ribeiro
