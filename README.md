@@ -14,9 +14,9 @@ A comparação entre essas abordagens permite avaliar não apenas a capacidade p
 A pesquisa contou com 2.000 respondentes com 16 anos ou mais, distribuídos em todas as regiões do Brasil, utilizando uma amostra probabilística com representatividade estatística significativa.
 Cada linha da base representa um respondente e contém variáveis sociodemográficas como:
 
-*sexo
-*idade
-*escolaridade
+sexo
+idade
+escolaridade
 raça/cor
 religião
 renda individual
@@ -42,6 +42,36 @@ Sua escolha foi motivada principalmente por:
 * menor sensibilidade a overfitting
   
 Por isso, ele foi selecionado como modelo principal para a comparação com o LLM.
+
+**Abordagem com LLM**
+
+A abordagem baseada em LLM utilizou o ChatGPT como simulador de respondentes virtuais.
+Foi aplicada a técnica de Silicon Sampling, que consiste em condicionar o modelo com perfis sociodemográficos reais para que ele atue como um respondente sintético de alta fidelidade.
+O prompt foi estruturado com base em:
+
+*persona adoption
+*backstory individual
+*regras rígidas de resposta
+*proibição de uso de conhecimento externo
+
+Cada execução representava um único respondente, e o modelo deveria escolher apenas uma resposta entre as opções disponíveis, sem explicações adicionais.
+Essa estratégia buscou reproduzir como uma pessoa com aquele perfil provavelmente responderia à pergunta da pesquisa.
+
+**Métricas de Avaliação**
+
+A comparação entre os modelos foi realizada utilizando diferentes métricas de desempenho.
+
+As principais foram:
+
+*Acurácia → proporção geral de acertos
+*Precision → qualidade das previsões positivas
+*Recall → capacidade de recuperação das classes corretas
+*F1-score → equilíbrio entre precision e recall
+*Matriz de Confusão → identificação dos principais erros de classificação
+*Feature Importance → análise da importância das variáveis no Random Forest
+*Distância de Jensen-Shannon (JSD) → comparação entre distribuições de respostas
+
+Enquanto a acurácia mede o acerto individual ponto a ponto, a JSD permite avaliar a fidelidade distributiva, ou seja, o quanto os padrões coletivos de resposta se aproximam da distribuição real da pesquisa.
 
 ## Grupo
 1. Ana Beatriz Rocha Ribeiro
