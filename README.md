@@ -78,9 +78,9 @@ Os resultados mostraram que o modelo supervisionado apresentou melhor desempenho
 | Métrica | Random Forest | LLM |
 |---|---:|---:|
 | Acurácia | 43,5% | 28,5% |
-| Precision (média) | 0,39 | 0,30 |
-| Recall (média) | 0,43 | 0,28 |
-| F1-score (média) | 0,38 | 0,26 |
+| Precision (média) | 39% | 30% |
+| Recall (média) | 43% | 28% |
+| F1-score (média) | 38% | 26% |
 
 ## Grupo
 1. Ana Beatriz Rocha Ribeiro
