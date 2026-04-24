@@ -13,9 +13,8 @@ A comparação entre essas abordagens permite avaliar não apenas a capacidade p
 **Base de Dados:** A base utilizada neste estudo é proveniente da pesquisa “Levantar a Percepção dos Brasileiros sobre Temas Relacionados à Desigualdade”, realizada pelo CESOP (Centro de Estudos de Opinião Pública) em julho de 2023.
 A pesquisa contou com 2.000 respondentes com 16 anos ou mais, distribuídos em todas as regiões do Brasil, utilizando uma amostra probabilística com representatividade estatística significativa.
 Cada linha da base representa um respondente e contém variáveis sociodemográficas como:
-
-sexo,
-idade,
+* sexo,
+* idade,
 escolaridade,
 raça/cor,
 religião,
