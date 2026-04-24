@@ -16,7 +16,7 @@ Cada linha da base representa um respondente e contém variáveis sociodemográf
 * sexo
 * idade
 * escolaridade
-* raça/cor
+* cor/raça
 * religião
 * renda individual
 * renda familiar
