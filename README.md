@@ -29,10 +29,10 @@ A variável alvo escolhida foi a questão P05:
 Essa pergunta foi utilizada como base para comparação entre as respostas reais, as previsões do modelo supervisionado e as respostas geradas pelo LLM.
 
 **Modelo Supervisionado:** Antes da definição final, foram testados diferentes algoritmos de machine learning:
-Random Forest
-Gradient Boosting Machines (GBM)
-K-Nearest Neighbors (KNN)
-Redes Neurais (MLPClassifier)
+* Random Forest
+* Gradient Boosting Machines (GBM)
+* K-Nearest Neighbors (KNN)
+* Redes Neurais (MLPClassifier)
 
 O Random Forest apresentou o melhor desempenho entre os modelos avaliados, com maior estabilidade e melhor capacidade de generalização.
 Sua escolha foi motivada principalmente por:
