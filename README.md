@@ -1,14 +1,34 @@
 # Comparação entre Modelo Supervisionado e LLM na Simulação de Respostas em Pesquisas de Opinião
 
-**Abstract:** This study evaluates Large Language Models (LLMs) and supervised learning in simulating Brazilian public opinion on social inequality. Using CESOP-IPEC 04839 data (2,000 respondents), we employed Silicon Sampling by conditioning an LLM on sociodemographic profiles to predict responses. Random Forest achieved the best predictive performance among tested supervised algorithms. Results were assessed via point-to-point accuracy and Jensen-Shannon Distance (JSD). Analysis shows that while supervised learning excels at individual prediction, LLMs effectively mimic collective distributions, offering a robust alternative for social behavior studies and hypothetical research.
+**Abstract:**
+This study evaluates Large Language Models (LLMs) and supervised learning in simulating Brazilian public opinion on social inequality. Using CESOP-IPEC 04839 data (2,000 respondents), we employed Silicon Sampling by conditioning an LLM on sociodemographic profiles to predict responses. Random Forest achieved the best predictive performance among tested supervised algorithms. Results were assessed via point-to-point accuracy and Jensen-Shannon Distance (JSD). Analysis shows that while supervised learning excels at individual prediction, LLMs effectively mimic collective distributions, offering a robust alternative for social behavior studies and hypothetical research.
 
-**Resumo:** Este estudo avalia Modelos de Linguagem de Grande Porte (LLMs) e aprendizado supervisionado na simulação da opinião pública brasileira sobre desigualdade. Utilizando dados da pesquisa CESOP-IPEC 04839 (2.000 respondentes), aplicou-se Silicon Sampling para condicionar um LLM a perfis sociodemográficos. O Random Forest obteve o melhor desempenho entre os algoritmos supervisionados. Os resultados foram validados via acurácia e Distância de Jensen-Shannon (JSD). A análise revela que, embora o aprendizado supervisionado supere na predição individual, os LLMs mimetizam eficazmente as distribuições coletivas, servindo como alternativa robusta para estudos de comportamento social e cenários hipotéticos.
+**Resumo:**
+Este estudo avalia Modelos de Linguagem de Grande Porte (LLMs) e aprendizado supervisionado na simulação da opinião pública brasileira sobre desigualdade. Utilizando dados da pesquisa CESOP-IPEC 04839 (2.000 respondentes), aplicou-se Silicon Sampling para condicionar um LLM a perfis sociodemográficos. O Random Forest obteve o melhor desempenho entre os algoritmos supervisionados. Os resultados foram validados via acurácia e Distância de Jensen-Shannon (JSD). A análise revela que, embora o aprendizado supervisionado supere na predição individual, os LLMs mimetizam eficazmente as distribuições coletivas, servindo como alternativa robusta para estudos de comportamento social e cenários hipotéticos.
 
-**Problema de Pesquisa:** Pesquisas de opinião pública são fundamentais para compreender como diferentes grupos sociais percebem temas como desigualdade, pobreza e condições de vida. No entanto, levantamentos tradicionais costumam apresentar limitações como alto custo, tempo de aplicação e dificuldade de atualização constante.
+**Problema de Pesquisa:** 
+Pesquisas de opinião pública são fundamentais para compreender como diferentes grupos sociais percebem temas como desigualdade, pobreza e condições de vida. No entanto, levantamentos tradicionais costumam apresentar limitações como alto custo, tempo de aplicação e dificuldade de atualização constante.
 Com o avanço dos Modelos de Linguagem de Grande Porte (LLMs), surgiu a possibilidade de simular respostas humanas a partir de perfis sociodemográficos específicos, abrindo novas possibilidades para estudos sociais e cenários hipotéticos.
 Diante desse contexto, este projeto busca responder à seguinte questão:
 Modelos supervisionados tradicionais e LLMs apresentam o mesmo desempenho na simulação de respostas de opinião pública?
 A comparação entre essas abordagens permite avaliar não apenas a capacidade preditiva individual, mas também o nível de fidelidade na reprodução de padrões coletivos de comportamento social.
+
+**Base de Dados**
+A base utilizada neste estudo é proveniente da pesquisa “Levantar a Percepção dos Brasileiros sobre Temas Relacionados à Desigualdade”, realizada pelo CESOP (Centro de Estudos de Opinião Pública) em julho de 2023.
+A pesquisa contou com 2.000 respondentes com 16 anos ou mais, distribuídos em todas as regiões do Brasil, utilizando uma amostra probabilística com representatividade estatística significativa.
+Cada linha da base representa um respondente e contém variáveis sociodemográficas como:
+sexo
+idade
+escolaridade
+raça/cor
+religião
+renda individual
+renda familiar
+região geográfica
+condição do município (capital, interior ou periferia)
+A variável alvo escolhida foi a questão P05:
+“Na sua percepção, nos últimos 12 meses, o número de pessoas em situação de fome e pobreza na sua cidade aumentou ou não aumentou?”
+Essa pergunta foi utilizada como base para comparação entre as respostas reais, as previsões do modelo supervisionado e as respostas geradas pelo LLM.
 
 ## Grupo
 1. Ana Beatriz Rocha Ribeiro
