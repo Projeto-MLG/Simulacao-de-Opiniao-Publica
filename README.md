@@ -59,16 +59,15 @@ Essa estratégia buscou reproduzir como uma pessoa com aquele perfil provavelmen
 **Métricas de Avaliação**
 
 A comparação entre os modelos foi realizada utilizando diferentes métricas de desempenho.
-
 As principais foram:
 
-*Acurácia → proporção geral de acertos
-*Precision → qualidade das previsões positivas
-*Recall → capacidade de recuperação das classes corretas
-*F1-score → equilíbrio entre precision e recall
-*Matriz de Confusão → identificação dos principais erros de classificação
-*Feature Importance → análise da importância das variáveis no Random Forest
-*Distância de Jensen-Shannon (JSD) → comparação entre distribuições de respostas
+* Acurácia → proporção geral de acertos
+* Precision → qualidade das previsões positivas
+* Recall → capacidade de recuperação das classes corretas
+* F1-score → equilíbrio entre precision e recall
+* Matriz de Confusão → identificação dos principais erros de classificação
+* Feature Importance → análise da importância das variáveis no Random Forest
+* Distância de Jensen-Shannon (JSD) → comparação entre distribuições de respostas
 
 Enquanto a acurácia mede o acerto individual ponto a ponto, a JSD permite avaliar a fidelidade distributiva, ou seja, o quanto os padrões coletivos de resposta se aproximam da distribuição real da pesquisa.
 
@@ -81,6 +80,12 @@ Os resultados mostraram que o modelo supervisionado apresentou melhor desempenho
 | Precision (média) | 39% | 30% |
 | Recall (média) | 43% | 28% |
 | F1-score (média) | 38% | 26% |
+
+Apesar da superioridade do Random Forest na previsão individual, o LLM apresentou maior proximidade estrutural com a distribuição real das respostas, validada pela baixa Distância de Jensen-Shannon.
+Isso mostra que:
+o Random Forest é mais eficiente para prever respostas individuais
+o LLM é mais eficiente para simular tendências coletivas e comportamento social agregado
+Esse resultado reforça que as duas abordagens não são concorrentes, mas complementares.
 
 ## Grupo
 1. Ana Beatriz Rocha Ribeiro
