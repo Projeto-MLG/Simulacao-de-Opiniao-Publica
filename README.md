@@ -117,8 +117,7 @@ Isso garante transparência metodológica e facilita futuras extensões da pesqu
 ## Arquivos de entrega: 
 * [Código do projeto - Google Colab](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
 * [Artigo: Comparação entre Modelo Supervisionado e LLM na Simulação de Respostas em Pesquisas de Opiniões](Simulação de Opinião Pública.pdf)
-* [Artigo: Comparação entre Modelo Supervisionado e LLM na Simulação de Respostas em Pesquisas de Opiniões]([link-do-arquivo](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/27f28dfb117d352e83e35ecb45c56f187fd5cf07/Simula%C3%A7%C3%A3o%20de%20Opini%C3%A3o%20P%C3%BAblica.pdf))
-* 
+* [Artigo: Comparação entre Modelo Supervisionado e LLM na Simulação de Respostas em Pesquisas de Opiniões]([(https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/27f28dfb117d352e83e35ecb45c56f187fd5cf07/Simula%C3%A7%C3%A3o%20de%20Opini%C3%A3o%20P%C3%BAblica.pdf))]
 * [Apresentação em vídeo - YouTube](https://youtu.be/jey9ZktKqOA)
 * [Arquivo da Apresentação - PowerPoint](Arquivos/MLG_Projeto_Desigualdade.pdf)
 
