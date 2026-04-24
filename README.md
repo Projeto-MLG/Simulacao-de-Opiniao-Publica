@@ -96,6 +96,7 @@ A organização dos arquivos foi pensada para permitir a reprodutibilidade compl
 * resultados intermediários
 * métricas finais
 * gráficos comparativos
+  
 Isso garante transparência metodológica e facilita futuras extensões da pesquisa.
 
 ## Grupo
