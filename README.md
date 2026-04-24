@@ -4,6 +4,12 @@
 
 **Resumo**. Este estudo avalia Modelos de Linguagem de Grande Porte (LLMs) e aprendizado supervisionado na simulação da opinião pública brasileira sobre desigualdade. Utilizando dados da pesquisa CESOP-IPEC 04839 (2.000 respondentes), aplicou-se Silicon Sampling para condicionar um LLM a perfis sociodemográficos. O Random Forest obteve o melhor desempenho entre os algoritmos supervisionados. Os resultados foram validados via acurácia e Distância de Jensen-Shannon (JSD). A análise revela que, embora o aprendizado supervisionado supere na predição individual, os LLMs mimetizam eficazmente as distribuições coletivas, servindo como alternativa robusta para estudos de comportamento social e cenários hipotéticos.
 
+**Problema de Pesquisa**. Pesquisas de opinião pública são fundamentais para compreender como diferentes grupos sociais percebem temas como desigualdade, pobreza e condições de vida. No entanto, levantamentos tradicionais costumam apresentar limitações como alto custo, tempo de aplicação e dificuldade de atualização constante.
+Com o avanço dos Modelos de Linguagem de Grande Porte (LLMs), surgiu a possibilidade de simular respostas humanas a partir de perfis sociodemográficos específicos, abrindo novas possibilidades para estudos sociais e cenários hipotéticos.
+Diante desse contexto, este projeto busca responder à seguinte questão:
+Modelos supervisionados tradicionais e LLMs apresentam o mesmo desempenho na simulação de respostas de opinião pública?
+A comparação entre essas abordagens permite avaliar não apenas a capacidade preditiva individual, mas também o nível de fidelidade na reprodução de padrões coletivos de comportamento social.
+
 ## Grupo
 1. Ana Beatriz Rocha Ribeiro
 2. Maria José Pereira da Silva
