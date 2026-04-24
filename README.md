@@ -110,7 +110,9 @@ Isso garante transparência metodológica e facilita futuras extensões da pesqu
 ## Grupo
 1. Ana Beatriz Rocha Ribeiro
 2. Maria José Pereira da Silva
-3. Rogério de Oliveira
+
+## Professor
+* Rogério de Oliveira
 
 ## Arquivos de entrega: 
 * [Código do projeto - Google Colab](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
