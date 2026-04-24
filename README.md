@@ -15,13 +15,13 @@ A pesquisa contou com 2.000 respondentes com 16 anos ou mais, distribuídos em t
 Cada linha da base representa um respondente e contém variáveis sociodemográficas como:
 * sexo,
 * idade,
-escolaridade,
-raça/cor,
-religião,
-renda individual,
-renda familiar,
-região geográfica,
-condição do município (capital, interior ou periferia).
+* escolaridade,
+* raça/cor,
+* religião,
+* renda individual,
+* renda familiar,
+* região geográfica,
+* condição do município (capital, interior ou periferia).
 
 A variável alvo escolhida foi a questão P05:
 “Na sua percepção, nos últimos 12 meses, o número de pessoas em situação de fome e pobreza na sua cidade aumentou ou não aumentou?”
