@@ -48,10 +48,10 @@ A abordagem baseada em LLM utilizou o ChatGPT como simulador de respondentes vir
 Foi aplicada a técnica de Silicon Sampling, que consiste em condicionar o modelo com perfis sociodemográficos reais para que ele atue como um respondente sintético de alta fidelidade.
 O prompt foi estruturado com base em:
 
-*persona adoption
-*backstory individual
-*regras rígidas de resposta
-*proibição de uso de conhecimento externo
+* persona adoption
+* backstory individual
+* regras rígidas de resposta
+* proibição de uso de conhecimento externo
 
 Cada execução representava um único respondente, e o modelo deveria escolher apenas uma resposta entre as opções disponíveis, sem explicações adicionais.
 Essa estratégia buscou reproduzir como uma pessoa com aquele perfil provavelmente responderia à pergunta da pesquisa.
