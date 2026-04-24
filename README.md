@@ -11,24 +11,11 @@
 
 ## Arquivos de entrega: 
 * [Código do projeto - Google Colab](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
-* [Artigo: Simulação de opinião pública com modelo supervisionado e LLM](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/b121cc9f7344cec4dfde9575f10c60f9e8cd1473/Projeto_Simulac%CC%A7a%CC%83o_de_Opinia%CC%83o_Pu%CC%81blica.pdf)
-* [Apresentação em vídeo - YouTube](https://youtu.be/jey9ZktKqOA)
-* [Arquivo da Apresentação - PowerPoint](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/a97654d23ad8e50509e6ddeed712a1f21383c813/Arquivos/MLG_Projeto_Desigualdade.pdf)
-
---
-
-* [Código do projeto - Google Colab](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
 * [Artigo: Simulação de opinião pública com modelo supervisionado e LLM](Projeto_Simulação_de_Opinião_Pública.pdf)
 * [Apresentação em vídeo - YouTube](https://youtu.be/jey9ZktKqOA)
 * [Arquivo da Apresentação - PowerPoint](Arquivos/MLG_Projeto_Desigualdade.pdf)
 
 ## Arquivos base: 
-* [Base de Dados](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Dataset/04839.sav)
-* [Questionário](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Dataset/quest_04839.pdf)
-* [Distribuição das respostas](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Dataset/TF_04839.pdf)
-
---
-
 * [Base de Dados](Dataset/04839.sav)
 * [Questionário](Dataset/quest_04839.pdf)
 * [Distribuição das respostas](Dataset/TF_04839.pdf)
@@ -40,8 +27,8 @@
 
 --
 
-* [Arquivo formato csv]("LLM_Generated_Answers/Base teste LLM.csv")
-* [Arquivo com os prints das respostas do LLM]('LLM_Generated_Answers/Prints das respostas do LLM.pdf')
+* [Arquivo formato csv](LLM_Generated_Answers/Base_teste_LLM.csv)
+* [Arquivo com os prints das respostas do LLM](LLM_Generated_Answers/Prints_das_respostas_do_LLM.pdf)
 
 ## Referência:
 
