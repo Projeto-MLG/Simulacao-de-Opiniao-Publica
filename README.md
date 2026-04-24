@@ -87,6 +87,14 @@ Isso mostra que:
 * O LLM é mais eficiente para simular tendências coletivas e comportamento social agregado
 Esse resultado reforça que as duas abordagens não são concorrentes, mas complementares.
 
+**Conclusão**
+
+O presente estudo demonstrou que tanto os modelos de aprendizagem supervisionada clássica quanto os Modelos de Linguagem de Grande Escala (LLMs) são ferramentas viáveis para a simulação de tendências em pesquisas de opinião, embora operem sob paradigmas distintos. Os resultados evidenciam que o modelo supervisionado (\textit{Random Forest}) detém uma superioridade no desempenho preditivo individual, especializando-se na identificação de correlações estatísticas robustas presentes no \textit{ground truth} populacional.
+
+Em contrapartida, a abordagem baseada em LLM via \textit{silicon sampling} revelou uma variabilidade estocástica superior, traduzindo-se em uma maior riqueza de nuances contextuais. Enquanto o modelo tradicional atua como um otimizador de acertos, o LLM funciona como um emulador de identidades, sendo capaz de replicar a morfologia da distribuição de opiniões mesmo quando a acurácia ponto a ponto é reduzida. Essa característica é validada pela baixa distância de Jensen-Shannon observada, sugerindo que a IA generativa possui uma competência notável para manter a fidelidade distributiva da sociedade sintética.
+
+Portanto, conclui-se que as duas metodologias são complementares e não excludentes. A união da precisão estatística do modelo supervisionado com a flexibilidade linguística e o raciocínio contextual do LLM abre novas fronteiras para a Ciência Social Computacional. Futuros trabalhos podem explorar arquiteturas híbridas onde o conhecimento estruturado de modelos preditivos refine os prompts de simulação, permitindo a construção de laboratórios sociais virtuais mais precisos para a prospecção de políticas públicas e análise de dinâmicas de percepção social no Brasil.
+
 **Reprodutibilidade**
 
 Todos os códigos desenvolvidos, bases estruturadas, perfis sociodemográficos e registros das respostas geradas pelo LLM estão disponíveis neste repositório.
