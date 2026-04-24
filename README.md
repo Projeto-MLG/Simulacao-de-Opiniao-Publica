@@ -13,15 +13,15 @@ A comparação entre essas abordagens permite avaliar não apenas a capacidade p
 **Base de Dados:** A base utilizada neste estudo é proveniente da pesquisa “Levantar a Percepção dos Brasileiros sobre Temas Relacionados à Desigualdade”, realizada pelo CESOP (Centro de Estudos de Opinião Pública) em julho de 2023.
 A pesquisa contou com 2.000 respondentes com 16 anos ou mais, distribuídos em todas as regiões do Brasil, utilizando uma amostra probabilística com representatividade estatística significativa.
 Cada linha da base representa um respondente e contém variáveis sociodemográficas como:
-* sexo,
-* idade,
-* escolaridade,
-* raça/cor,
-* religião,
-* renda individual,
-* renda familiar,
-* região geográfica,
-* condição do município (capital, interior ou periferia).
+* sexo
+* idade
+* escolaridade
+* raça/cor
+* religião
+* renda individual
+* renda familiar
+* região geográfica
+* condição do município (capital, interior ou periferia)
 
 A variável alvo escolhida foi a questão P05:
 “Na sua percepção, nos últimos 12 meses, o número de pessoas em situação de fome e pobreza na sua cidade aumentou ou não aumentou?”
@@ -71,6 +71,15 @@ As principais foram:
 *Distância de Jensen-Shannon (JSD) → comparação entre distribuições de respostas
 
 Enquanto a acurácia mede o acerto individual ponto a ponto, a JSD permite avaliar a fidelidade distributiva, ou seja, o quanto os padrões coletivos de resposta se aproximam da distribuição real da pesquisa.
+
+**Principais Resultados**
+
+Os resultados mostraram que o modelo supervisionado apresentou melhor desempenho preditivo individual.
+Métrica	Random Forest	LLM
+Acurácia	43,5%	28,5%
+Precision (média)	0,39	0,30
+Recall (média)	0,43	0,28
+F1-score (média)	0,38	0,26
 
 ## Grupo
 1. Ana Beatriz Rocha Ribeiro
