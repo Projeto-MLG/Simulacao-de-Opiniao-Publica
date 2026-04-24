@@ -10,7 +10,7 @@
 
 ## Arquivos de entrega: 
 * [Código do projeto - Google Colab](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
-* [Artigo: Simulação de opinião pública com modelo supervisionado e LLM](Projeto_Simulação_de_Opinião_Pública.pdf)
+* [Artigo: Simulação de opinião pública com modelo supervisionado e LLM](Projeto_MLG_Artigo.pdf)
 * [Apresentação em vídeo - YouTube](https://youtu.be/jey9ZktKqOA)
 * [Arquivo da Apresentação - PowerPoint](Arquivos/MLG_Projeto_Desigualdade.pdf)
 
