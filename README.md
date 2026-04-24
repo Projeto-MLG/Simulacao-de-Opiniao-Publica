@@ -127,7 +127,7 @@ Isso garante transparência metodológica e facilita futuras extensões da pesqu
 * [Arquivo formato csv](LLM_Generated_Answers/Base_teste_LLM.csv)
 * [Arquivo com os prints das respostas do LLM](LLM_Generated_Answers/Prints_das_respostas_do_LLM.pdf)
 
-## Referência:
+## Referencia:
 * [Simulating Public Opinion: Comparing Distributional and Individual-Level Predictions from LLMs and Random Forests](Arquivos/entropy-27-00923.pdf)
 
 
