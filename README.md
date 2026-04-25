@@ -1,18 +1,28 @@
 # Comparação entre Modelos Supervisionados e LLMs na Simulação de Respostas em Pesquisas de Opinião
 
-Este trabalho apresenta uma comparação entre um modelo supervisionado (Random Forest) e um Modelo de Linguagem de Grande Porte (LLM), utilizando o ChatGPT, na simulação de respostas de pesquisas de opinião pública sobre desigualdade social no Brasil.
+Este projeto investiga a utilização de modelos supervisionados e Modelos de Linguagem de Grande Porte (LLMs) na simulação de respostas em pesquisas de opinião pública sobre desigualdade social no Brasil.
 
-A base utilizada foi a pesquisa CESOP-IPEC 04839, com 2.000 respondentes de diferentes regiões do país. A variável analisada foi a percepção sobre o aumento da fome e da pobreza na cidade dos entrevistados.
+O estudo utiliza como base a pesquisa CESOP-IPEC 04839, composta por 2.000 respondentes distribuídos em diferentes regiões do país. A variável analisada corresponde à percepção dos entrevistados sobre o aumento da fome e da pobreza em suas cidades.
 
-No modelo supervisionado, foram testados diferentes algoritmos de machine learning, sendo o Random Forest escolhido por apresentar melhor desempenho preditivo e maior estabilidade. Já no LLM, foi aplicada a técnica de Silicon Sampling, em que o ChatGPT recebeu perfis sociodemográficos individuais para gerar respostas simuladas de forma personalizada.
+Na abordagem supervisionada, foram avaliados diferentes algoritmos de Machine Learning, como Random Forest, Gradient Boosting, KNN e Redes Neurais. O modelo Random Forest foi selecionado por apresentar melhor desempenho preditivo, maior estabilidade e melhor capacidade de generalização.
 
-A comparação foi realizada utilizando o mesmo conjunto de teste, permitindo analisar diretamente a resposta real, a previsão do modelo supervisionado e a resposta gerada pelo LLM.
+Na abordagem com LLM, foi aplicada a técnica de Silicon Sampling, utilizando o ChatGPT para simular respostas individuais a partir de perfis sociodemográficos reais. Cada respondente foi representado por uma persona estruturada com informações como sexo, idade, escolaridade, renda, região e religião, permitindo a geração de respostas contextualizadas.
 
-As principais métricas utilizadas foram acurácia, precision, recall, F1-score, matriz de confusão e Distância de Jensen-Shannon (JSD).
+A comparação entre os modelos foi realizada utilizando o mesmo conjunto de teste, garantindo equivalência na avaliação entre as respostas reais, as previsões do modelo supervisionado e as respostas geradas pelo LLM.
 
-Os resultados mostraram que o Random Forest apresentou melhor desempenho individual, com maior acurácia, enquanto o LLM demonstrou maior capacidade de reproduzir a distribuição coletiva das respostas.
+As métricas utilizadas incluíram:
 
-A principal conclusão é que os dois modelos podem ser utilizados de forma complementar: o modelo supervisionado é mais eficiente para prever respostas individuais, enquanto o LLM apresenta maior potencial para simular padrões coletivos de comportamento social.
+* Acurácia
+* Precision
+* Recall
+* F1-score
+* Matriz de Confusão
+* Feature Importance
+* Distância de Jensen-Shannon (JSD)
+
+Os resultados demonstraram que o Random Forest apresentou melhor desempenho na predição individual, com maior acurácia e maior consistência nas classificações. Por outro lado, o LLM apresentou maior proximidade com a distribuição coletiva das respostas, mostrando maior capacidade de simular padrões sociais agregados.
+
+A principal conclusão do estudo é que as duas abordagens não são concorrentes, mas complementares: enquanto o modelo supervisionado se destaca na previsão individual, o LLM apresenta maior potencial para representar tendências coletivas e cenários hipotéticos em estudos de comportamento social.
 
 ## Autores
 1. Ana Beatriz Rocha Ribeiro
