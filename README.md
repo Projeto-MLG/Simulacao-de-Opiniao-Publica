@@ -14,7 +14,7 @@ Os resultados mostraram que o Random Forest apresentou melhor desempenho individ
 
 A principal conclusão é que os dois modelos podem ser utilizados de forma complementar: o modelo supervisionado é mais eficiente para prever respostas individuais, enquanto o LLM apresenta maior potencial para simular padrões coletivos de comportamento social.
 
-## Grupo
+## Autores
 1. Ana Beatriz Rocha Ribeiro
 2. Maria José Pereira da Silva
 
