@@ -32,8 +32,8 @@ A principal conclusão do estudo é que as duas abordagens não são concorrente
 * Rogério de Oliveira
 
 ## Arquivos de entrega: 
-* [Código do projeto - Google Colab](https://colab.research.google.com/github/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/main/Projeto_MLG_Opinião_Pública.ipynb)
-* [Artigo: Comparação entre Modelo Supervisionado e LLM na Simulação de Respostas em Pesquisas de Opinião](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/1b60014fa26624ef86eae5a9ca610346810082a7/Simula%C3%A7%C3%A3o%20de%20Opini%C3%A3o%20P%C3%BAblica.pdf)
+* [Código do projeto - Google Colab](https://colab.research.google.com/drive/13-Hf8XWHWezbMs8yFwISHAKsqH32MFdp?usp=sharing)
+* [Artigo: Comparação entre Modelo Supervisionado e LLM na Simulação de Respostas em Pesquisas de Opinião](https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica/blob/f4ee2b415545492c3e33f05bd6e5e30b0ddf8b29/Simula%C3%A7%C3%A3o%20de%20Opini%C3%A3o%20P%C3%BAblica.pdf)
 * [Apresentação em vídeo - YouTube](https://youtu.be/jey9ZktKqOA)
 * [Arquivo da Apresentação - PowerPoint](Arquivos/MLG_Projeto_Desigualdade.pdf)
 
