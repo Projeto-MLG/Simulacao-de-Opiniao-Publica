@@ -10,7 +10,7 @@ Na abordagem com LLM, foi aplicada a técnica de Silicon Sampling, utilizando o 
 
 A comparação entre os modelos foi realizada utilizando o mesmo conjunto de teste, garantindo equivalência na avaliação entre as respostas reais, as previsões do modelo supervisionado e as respostas geradas pelo LLM.
 
-As métricas utilizadas incluíram:
+As metricas utilizadas incluíram:
 
 * Acurácia
 * Precision
