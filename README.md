@@ -4,7 +4,7 @@ Este projeto investiga a utilização de modelos supervisionados e Modelos de Li
 
 O estudo utiliza como base a pesquisa CESOP-IPEC 04839, composta por 2.000 respondentes distribuídos em diferentes regiões do país. A variável analisada corresponde à percepção dos entrevistados sobre o aumento da fome e da pobreza em suas cidades.
 
-Na abordagem supervisionada, foram avaliados diferentes algoritmos de Machine Learning, como Random Forest, Gradient Boosting, KNN e Redes Neurais. O modelo Random Forest foi selecionado por apresentar melhor desempenho preditivo, maior estabilidade e melhor capacidade de generalização.
+Na abordagem supervisionada, foram avaliados diferentes algoritmos de Machine Learning, como Random Forest, Gradient Boosting Machines (GBM), K-Nearest Neighbors (KNN) e Redes Neurais Multicamadas (MLPClassifier). O modelo Random Forest foi selecionado por apresentar melhor desempenho preditivo, maior estabilidade e melhor capacidade de generalização.
 
 Na abordagem com LLM, foi aplicada a técnica de Silicon Sampling, utilizando o ChatGPT para simular respostas individuais a partir de perfis sociodemográficos reais. Cada respondente foi representado por uma persona estruturada com informações como sexo, idade, escolaridade, renda, região e religião, permitindo a geração de respostas contextualizadas.
 
