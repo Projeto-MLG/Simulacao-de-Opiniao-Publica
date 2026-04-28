@@ -12,13 +12,13 @@ A comparação entre os modelos foi realizada utilizando o mesmo conjunto de tes
 
 As metricas utilizadas incluíram:
 
-* Acurácia
+* Acuracia
 * Precision
 * Recall
 * F1-score
-* Matriz de Confusão
+* Matriz de Confusao
 * Feature Importance
-* Distância de Jensen-Shannon (JSD)
+* Distancia de Jensen-Shannon (JSD)
 
 Os resultados demonstraram que o Random Forest apresentou melhor desempenho na predição individual, com maior acurácia e maior consistência nas classificações. Por outro lado, o LLM apresentou maior proximidade com a distribuição coletiva das respostas, mostrando maior capacidade de simular padrões sociais agregados.
 
