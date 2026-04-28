@@ -24,6 +24,16 @@ Os resultados demonstraram que o Random Forest apresentou melhor desempenho na p
 
 A principal conclusão do estudo é que as duas abordagens não são concorrentes, mas complementares: enquanto o modelo supervisionado se destaca na previsão individual, o LLM apresenta maior potencial para representar tendências coletivas e cenários hipotéticos em estudos de comportamento social.
 
+## Citação
+@article{ribeiro2026simulacao,
+  title={Comparação entre Modelos Supervisionados e LLMs na Simulação de Respostas em Pesquisas de Opinião},
+  author={Ribeiro, Ana Beatriz Rocha and Silva, Maria José Pereira da and Oliveira, Rogério de},
+  institution={Universidade Presbiteriana Mackenzie},
+  year={2026},
+  url={https://github.com/Projeto-MLG/Simulacao-de-Opiniao-Publica}
+}
+
+
 ## Autores
 1. Ana Beatriz Rocha Ribeiro
 2. Maria José Pereira da Silva
