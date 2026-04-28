@@ -12,7 +12,7 @@ A comparação entre os modelos foi realizada utilizando o mesmo conjunto de tes
 
 As metricas utilizadas incluíram:
 
-* Acuracia
+* Acurácia
 * Precision
 * Recall
 * F1-score
